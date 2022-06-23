@@ -1,0 +1,109 @@
+/* Estilos da página index.html*/
+
+* {
+    margin: 0px;
+    font-family: "Brush Script MT", cursive
+}
+
+.menu1 {
+    display: flex;
+    background-color: #fed330;
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    font-family: "Brush Script MT", cursive;
+}
+
+.fonte {
+    font-family: "Brush Script MT", cursive
+}
+
+li {
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+li:hover {
+    color: rgb(255, 0, 0);
+}
+
+.borda {
+    border-radius: 5%;
+    width: 1000px;
+    height: 450px;
+}
+
+.bordap {
+    border-radius: 50%;
+    width: 400px;
+    height: 270px;
+}
+
+.tamanho {
+    font-size: 30px;
+}
+
+.tamt {
+    font-size: 40px;
+}
+
+.tam {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    margin-right: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.tm {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+.margem {
+    margin: 40px;
+}
+
+.margemi {
+    margin: 20px;
+}
+
+.margemup {
+    margin-top: 80px;
+}
+
+.margemd {
+    margin-right: 40px;
+}
+
+
+/* Estilos da página contato.html*/
+
+.margeml {
+    margin-left: 50px;
+}
+
+.margemlo {
+    margin-left: 120px;
+}

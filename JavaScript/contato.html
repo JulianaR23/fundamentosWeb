@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+
+<body style="background-color: #2bcbba">
+    <nav>
+        <ul class="menu1">
+            <img class="margemd" src="https://i.imgur.com/7zh3fUG.png" alt="imagem de uma pokebola" width="30px">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="contato.html">
+                <li>Contato</li>
+            </a>
+            <img class="margeml" src="https://i.imgur.com/7zh3fUG.png" alt="imagem de uma pokebola" width="30px">
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div>
+            <h1 class="imagem">Entre em contato!</h1>
+        </div>
+        <div class="margem">
+            <img src="https://i.imgur.com/ngHmSm2.png" alt="imagem do pokémon pikachu" width="100px">
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2 class="margem">Mande uma mensagem</h2>
+            <form>
+                <div>
+                    <label for="nome">Nome: </label> <br>
+                    <input type="text" id="nome" onkeyup="validarNome()">
+                    <div id = "TxtNome"></div>
+                </div>
+                
+                <div>
+                    <label for="email">E-mail: </label><br>
+                    <input type="email" id="email" onkeyup="validarEmail()">
+                    <div id = "TxtEmail"></div>
+                </div>
+                <div>
+                    <label for="assunto">Assunto: </label><br>
+                    <textarea name="assunto" id="assunto" cols="50" rows="5" onkeyup="validarAssunto()"></textarea>
+                    <div id = "TxtAssunto"></div>
+                </div>
+                <div>
+                    <button onclick = "Enviar()">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="margeml">
+            <div class="container">
+                <div class="imagem">
+                    <h2>Nossa localização</h2>
+                </div>
+
+                <div class="margem">
+                    <img src="https://i.imgur.com/S2Cq6Gz.png" alt="Foto de uma pokedex" width="100px">
+                </div>
+            </div>
+            <div class="margemlo">
+                <p>Av. Roque Petroni Júnior, 1089</p>
+                <p>Jardim das Acacias, São Paulo - SP</p>
+                <p>Cep:04707-900</p>
+            </div>
+            <iframe class="margem"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4761821974685!2d-46.70079608554149!3d-23.623111969759474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50c4a726aaab%3A0xa6b37701be082ac8!2sMorumbi%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1655823877717!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/juliana-souza-46a36b197/" target="_blank">
+                <img class="tm" src="https://i.imgur.com/RWRwkO3.png" alt="logo do linkedin">
+            </a>
+            <a href="https://github.com/JulianaR23" target="_blank">
+                <img class="tm" src="https://i.imgur.com/dHIGIMn.png" alt="logo do  Github">
+            </a>
+        </div>
+        <p class="center">
+            Feito por Juliana Souza &copy;
+        </p>
+    </footer>
+
+  <script src="assests/javascript/script.js"></script>
+
+</body>
+</html>
